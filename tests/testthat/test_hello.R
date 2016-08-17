@@ -21,3 +21,10 @@ test_that("Percentage Value 2", {
   expect_equal(p, "167.332%")
 })
 
+
+test_that("Percentage Value 3", {
+  x <- 0.37453
+  y <- 4
+  p <- percent(x, y)
+  expect_equal(p, "37.453%")
+})
