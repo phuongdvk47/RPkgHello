@@ -8,10 +8,10 @@ test_that("Call hello function", {
 })
 
 test_that("Percentage Value 1", {
-  x5 <- 0.56733
-  y5 <- 5
-  p5 <- percent(x5, y5)
-  expect_equal(p5, "56.73%")
+  x <- 0.56733
+  y <- 1
+  p <- percent(x, y)
+  expect_equal(p, "56.73%")
 })
 
 test_that("Percentage Value 2", {
