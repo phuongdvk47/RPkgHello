@@ -22,7 +22,7 @@ test_that("Percentage Value 2", {
 })
 
 
-test_that("Percentage Value 3", {
+test_that("Percentage Value 3 - branch remote", {
   x <- 0.37453
   y <- 4
   p <- percent(x, y)
