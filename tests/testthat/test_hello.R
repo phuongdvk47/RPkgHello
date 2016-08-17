@@ -9,7 +9,7 @@ test_that("Call hello function", {
 
 test_that("Percentage Value 1", {
   x <- 0.56733
-  y <- 2
+  y <- 1
   p <- percent(x, y)
   expect_equal(p, "56.73%")
 })
