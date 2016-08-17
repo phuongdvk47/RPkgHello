@@ -22,7 +22,7 @@ test_that("Percentage Value 2", {
 })
 
 
-test_that("Percentage Value 3 - master", {
+test_that("Percentage Value 3 - master, remember pass", {
   x <- 0.37453
   y <- 4
   p <- percent(x, y)
